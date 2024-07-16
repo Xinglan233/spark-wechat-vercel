@@ -289,9 +289,9 @@ function genParams(messages) {
     parameter: {
       chat: {
         domain: process.env.SPARK_DOMAIN,
-        temperature: 0.8,
+        temperature: 1,
         top_k: 6,
-        max_tokens: 2048,
+        max_tokens: 8192,
         auditing: 'default',
       },
     },
