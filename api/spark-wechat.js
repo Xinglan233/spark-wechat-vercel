@@ -291,7 +291,7 @@ function genParams(messages) {
         domain: process.env.SPARK_DOMAIN,
         temperature: 1,
         top_k: 6,
-        max_tokens: 8192,
+        max_tokens: 4096,
         auditing: 'default',
       },
     },
